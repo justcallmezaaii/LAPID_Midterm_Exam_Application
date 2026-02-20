@@ -26,7 +26,7 @@ class ProductController extends Controller
                 'year' => 2012,
                 'description' => 'A coming-of-age story about grief, identity, and first love between girls in 1990s America.',
                 'tags' => ['sapphic', 'young adult', 'contemporary'],
-                'cover' => 'https://upload.wikimedia.org/wikipedia/en/0/05/The_Miseducation_of_Cameron_Post_%28novel%29.jpg',
+                'cover' => 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1531501951i/40801157.jpg',
                 'link' => 'https://www.goodreads.com/book/show/16224505-the-miseducation-of-cameron-post'
             ],
             [
@@ -62,7 +62,7 @@ class ProductController extends Controller
                 'year' => 2014,
                 'description' => 'A coming-of-age novel set in 1950s San Francisco, following a teenage girl who discovers a secret society of lesbians.',
                 'tags' => ['sapphic', 'young adult', 'historical'],
-                'cover' => 'https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1593457992l/35224992.jpg',
+                'cover' => 'https://images.squarespace-cdn.com/content/v1/58dd71ebebbd1a51648718d8/1668114353411-KUQ897BNUV6O7XS574N6/Brazil+LNATTC+Front+Cover.jpg',
                 'link' => 'https://www.goodreads.com/book/show/35224992-last-night-at-the-telegraph-club'
             ],
             [

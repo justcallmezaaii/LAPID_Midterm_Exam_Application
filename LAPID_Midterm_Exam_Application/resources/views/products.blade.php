@@ -52,7 +52,7 @@
         .works-list {
             background: #fff;
             border: 1px solid #e0d9cc;
-                      border-radius: 4px;
+            border-radius: 10px;
         }
         .work-item {
             display: grid;
@@ -142,7 +142,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <a href="{{ url('/') }}">&larr; Back to Home</a>
+            <img src="https://cdn-icons-png.flaticon.com/512/5780/5780661.png" alt="Logo" style="width: 60px; margin-bottom: 1rem;">
             <h1>{{ $theme }}</h1>
             <p class="subtitle">A carefully curated collection of sapphic & women-loving-women literature</p>
         </div>
@@ -168,6 +168,7 @@
                                 <span class="tag">{{ $tag }}</span>
                             @endforeach
                         </div>
+                        
                         @if(!empty($product['link']))
                             <a href="{{ $product['link'] }}" target="_blank" style="display: inline-block; margin-top: 1.5rem; padding: 0.6rem 1.2rem; background: #8b735565; color: #fff; text-decoration: none; border-radius: 10px; font-family: monospace; font-size: 0.9rem; letter-spacing: 0.3px; transition: background 0.2s;" onmouseover="this.style.background='#6d5845'" onmouseout="this.style.background='#8b7355'">Learn More →</a>
                         @endif
